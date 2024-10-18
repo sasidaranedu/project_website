@@ -92,14 +92,13 @@
   line-height: 2;
 }
 
-
 .carousel {
   padding: 130px 0;
   background-color: #f5f6f7;
 }
 
 .carousel-container {
-  max-width: 1140px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
@@ -117,6 +116,129 @@
   color: #0a165e;
 }
 
+.carousel-box {
+  padding: 28px;
+  transition: all .4s;
+  border-radius: 18px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.carousel-box:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.carousel-box-icon {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  transition: all .4s;
+  align-items: center;
+  margin-bottom: 60px;
+  border-radius: 10px;
+  justify-content: center;
+  background-color: #eef1ff;
+}
+
+.carousel-box h5 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #0a165e;
+}
+
+.carousel-box p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 30px;
+  color: #585b6f;
+}
+
+.carousel-box-link a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #2b4dff;
+}
+
+.carousel-box-link a span {
+  transform: translateX(-20px);
+  font-weight: 500;
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel-box-link a:hover span {
+  transform: translateX(10px);
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel-box-link a .carousel-box-link-icon-left {
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+.carousel-box-link a .carousel-box-link-icon-right {
+  transition: opacity 0.3s ease;
+}
+
+.carousel-box-link a:hover .carousel-box-link-icon-left {
+  transition: opacity 0.3s ease;
+  opacity: 1;
+}
+
+.carousel-box-link a:hover .carousel-box-link-icon-right {
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+.t-carousel-box {
+  padding: 35px;
+  display: flex;
+  gap: 35px;
+  border-radius: 18px;
+  background-color: #fff;
+  margin: 10px;
+}
+
+.t-quote {
+  flex-shrink: 0;
+}
+
+.t-data p {
+  font-size: 18px;
+  margin-bottom: 28px;
+  line-height: 32px;
+}
+
+.t-rating {
+  margin-bottom: 8px;
+}
+
+.t-rating ul {
+  line-height: 1;
+}
+
+.t-rating ul li {
+  display: inline-block;
+}
+
+.t-author h5 {
+  margin-bottom: 2px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -.02em;
+  color: #0a165e;
+}
+
+.t-author span {
+  margin-bottom: 2px;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: -.02em;
+  color: #585B6F;
+}
 
 .extra-mt {
   margin-top: 40px;

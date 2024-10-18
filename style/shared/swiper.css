@@ -1,0 +1,71 @@
+.card__container {
+  padding-block: 5rem;
+}
+
+.card__content-1,
+.card__content-2 {
+  margin-inline: 1.75rem;
+  border-radius: 1.25rem;
+  overflow: hidden;
+}
+
+/* Swiper class */
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  content: "";
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: initial;
+  height: initial;
+  font-size: 3rem;
+  color: #0A165E;
+  display: none;
+
+}
+
+.swiper-button-prev {
+  left: 0;
+}
+
+.swiper-button-next {
+  right: 0;
+}
+
+.swiper-button-prev ion-icon,
+.swiper-button-next ion-icon {
+  font-size: 22px;
+  color: #0A165E;
+}
+
+.swiper-pagination-bullet {
+  background-color: #C4C5C6;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #0A165E;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 320px) {
+  .card__data {
+    padding: 1rem;
+  }
+}
+
+/* For medium devices */
+@media screen and (min-width: 768px) {
+
+  .card__content-1,
+  .card__content-2 {
+    margin-inline: 3rem;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: block;
+  }
+}

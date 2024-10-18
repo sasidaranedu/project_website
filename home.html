@@ -4,18 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="./style/shared/general.css" />
     <link rel="stylesheet" href="./style/shared/header.css" />
     <link rel="stylesheet" href="./style/page/home.css" />
-
     <link rel="stylesheet" href="./style/shared/footer.css" />
+    <link rel="stylesheet" href="./style/shared/swiper.css" />
   </head>
   <body>
     <header>
@@ -146,9 +149,130 @@
       <section class="carousel">
         <div class="carousel-container">
           <div class="carousel-heading">
-            <h2>Our awesome services to give you success</h2>
+            <h2>Don't take our word, see what our customers say</h2>
           </div>
-          <ServiceCarousel />
+          <div class="card__container swiper">
+            <div class="card__content-1">
+              <div class="swiper-wrapper">
+                <div class="carousel-box swiper-slide">
+                  <div class="carousel-box-icon">
+                    <img src="./image/icon/icon1.svg" alt="icon" />
+                  </div>
+                  <h5>
+                    Data Tracking <br />
+                    Security
+                  </h5>
+                  <p>Developing a comprehensive IT strategy that aligns.</p>
+                  <div class="carousel-box-link">
+                    <a hrf="">
+                      <div class="carousel-box-link-icon-left"></div>
+                      <span>Learn More</span>
+                      <div class="carousel-box-link-icon-right"></div>
+                    </a>
+                  </div>
+                </div>
+                <div class="carousel-box swiper-slide">
+                  <div class="carousel-box-icon">
+                    <img src="./image/icon/icon1.svg" alt="icon" />
+                  </div>
+                  <h5>
+                    Data Tracking <br />
+                    Security
+                  </h5>
+                  <p>Developing a comprehensive IT strategy that aligns.</p>
+                  <div class="carousel-box-link">
+                    <a hrf="">
+                      <div class="carousel-box-link-icon-left"></div>
+                      <span>Learn More</span>
+                      <div class="carousel-box-link-icon-right"></div>
+                    </a>
+                  </div>
+                </div>
+                <div class="carousel-box swiper-slide">
+                  <div class="carousel-box-icon">
+                    <img src="./image/icon/icon1.svg" alt="icon" />
+                  </div>
+                  <h5>
+                    Data Tracking <br />
+                    Security
+                  </h5>
+                  <p>Developing a comprehensive IT strategy that aligns.</p>
+                  <div class="carousel-box-link">
+                    <a hrf="">
+                      <div class="carousel-box-link-icon-left"></div>
+                      <span>Learn More</span>
+                      <div class="carousel-box-link-icon-right"></div>
+                    </a>
+                  </div>
+                </div>
+                <div class="carousel-box swiper-slide">
+                  <div class="carousel-box-icon">
+                    <img src="./image/icon/icon1.svg" alt="icon" />
+                  </div>
+                  <h5>
+                    Data Tracking <br />
+                    Security
+                  </h5>
+                  <p>Developing a comprehensive IT strategy that aligns.</p>
+                  <div class="carousel-box-link">
+                    <a hrf="">
+                      <div class="carousel-box-link-icon-left"></div>
+                      <span>Learn More</span>
+                      <div class="carousel-box-link-icon-right"></div>
+                    </a>
+                  </div>
+                </div>
+                <div class="carousel-box swiper-slide">
+                  <div class="carousel-box-icon">
+                    <img src="./image/icon/icon1.svg" alt="icon" />
+                  </div>
+                  <h5>
+                    Data Tracking <br />
+                    Security
+                  </h5>
+                  <p>Developing a comprehensive IT strategy that aligns.</p>
+                  <div class="carousel-box-link">
+                    <a hrf="">
+                      <div class="carousel-box-link-icon-left"></div>
+                      <span>Learn More</span>
+                      <div class="carousel-box-link-icon-right"></div>
+                    </a>
+                  </div>
+                </div>
+                <div class="carousel-box swiper-slide">
+                  <div class="carousel-box-icon">
+                    <img src="./image/icon/icon1.svg" alt="icon" />
+                  </div>
+                  <h5>
+                    Data Tracking <br />
+                    Security
+                  </h5>
+                  <p>Developing a comprehensive IT strategy that aligns.</p>
+                  <div class="carousel-box-link">
+                    <a hrf="">
+                      <div class="carousel-box-link-icon-left"></div>
+                      <span>Learn More</span>
+                      <div class="carousel-box-link-icon-right"></div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Navigation buttons -->
+            <div class="swiper-button-next">
+              <div class="swiper-btn">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+              </div>
+            </div>
+
+            <div class="swiper-button-prev">
+              <ion-icon name="chevron-back-outline"></ion-icon>
+            </div>
+
+            <!-- Pagination -->
+            <div class="swiper-pagination swiper-pagination-1"></div>
+          </div>
         </div>
       </section>
       <section class="large-padding-tb4">
@@ -350,9 +474,101 @@
           <div class="carousel-heading">
             <h2>Don't take our word, see what our customers say</h2>
           </div>
-          <TestimonialCarousel />
+          <div class="card__container swiper">
+            <div class="card__content-2">
+              <div class="swiper-wrapper">
+                <div class="t-carousel-box swiper-slide">
+                  <div class="t-quote">
+                    <img src="./image/quote.svg" alt="quote" />
+                  </div>
+                  <div class="t-data">
+                    <p>
+                      “ Working with several word press themes and templates the
+                      last years, I only can say this is best in every level. I
+                      use it for my company and the reviews that I have already
+                      are all excellent. Not only the design but the code
+                      quality ”
+                    </p>
+                    <div class="t-author">
+                      <h5>Alexander Cameron</h5>
+                      <span>Lead Developer</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="t-carousel-box swiper-slide">
+                  <div class="t-quote">
+                    <img src="./image/quote.svg" alt="quote" />
+                  </div>
+                  <div class="t-data">
+                    <p>
+                      “ Working with several word press themes and templates the
+                      last years, I only can say this is best in every level. I
+                      use it for my company and the reviews that I have already
+                      are all excellent. Not only the design but the code
+                      quality ”
+                    </p>
+                    <div class="t-author">
+                      <h5>Alexander Cameron</h5>
+                      <span>Lead Developer</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="t-carousel-box swiper-slide">
+                  <div class="t-quote">
+                    <img src="./image/quote.svg" alt="quote" />
+                  </div>
+                  <div class="t-data">
+                    <p>
+                      “ Working with several word press themes and templates the
+                      last years, I only can say this is best in every level. I
+                      use it for my company and the reviews that I have already
+                      are all excellent. Not only the design but the code
+                      quality ”
+                    </p>
+                    <div class="t-author">
+                      <h5>Alexander Cameron</h5>
+                      <span>Lead Developer</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="t-carousel-box swiper-slide">
+                  <div class="t-quote">
+                    <img src="./image/quote.svg" alt="quote" />
+                  </div>
+                  <div class="t-data">
+                    <p>
+                      “ Working with several word press themes and templates the
+                      last years, I only can say this is best in every level. I
+                      use it for my company and the reviews that I have already
+                      are all excellent. Not only the design but the code
+                      quality ”
+                    </p>
+                    <div class="t-author">
+                      <h5>Alexander Cameron</h5>
+                      <span>Lead Developer</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Navigation buttons -->
+            <div class="swiper-button-next">
+              <div class="swiper-btn">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+              </div>
+            </div>
+
+            <div class="swiper-button-prev">
+              <ion-icon name="chevron-back-outline"></ion-icon>
+            </div>
+
+            <!-- Pagination -->
+            <div class="swiper-pagination swiper-pagination-2"></div>
+          </div>
         </div>
       </section>
+
       <section class="blog-section">
         <div class="container">
           <div class="blog-heading">
@@ -527,6 +743,7 @@
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./script/swiper.js"></script>
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
