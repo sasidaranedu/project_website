@@ -1,0 +1,149 @@
+.form-section {
+  padding: 130px 0;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+}
+
+.contact-details {
+  flex: 0 0 auto;
+  width: 50%;
+  padding: 0 12px;
+  display: flex;
+  align-items: center
+}
+
+.contact-content {
+  margin-right: 40px;
+}
+
+.contact-content h2 {
+  margin-bottom: 20px;
+  font-size: 48px;
+  line-height: 1.15em;
+  letter-spacing: -3px;
+  color: #0a165e;
+  font-weight: 600;
+}
+
+.contact-content p {
+  color: #585b6f;
+  line-height: 30px;
+  margin-bottom: 28px;
+}
+
+.contact-info-section {
+  margin-top: 60px;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  display: flex;
+  gap: 80px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #e3e3ec;
+}
+
+.contact-info-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  background-color: #0a165e;
+}
+
+.contact-info-icon ion-icon {
+  font-size: 26px;
+  color: #fff;
+}
+
+.contact-info h5 {
+  margin-bottom: 6px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #0a165e;
+}
+
+.contact-info p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #585b6f;
+}
+
+.contact-info p a {
+  text-decoration: none;
+  color: #585b6f;
+}
+
+.form {
+  flex: 0 0 auto;
+  width: 50%;
+  padding: 0 12px;
+}
+
+.form-box {
+  margin-left: 60px;
+  padding: 50px;
+  border-radius: 18px;
+  background-color: #f5f6f7;
+}
+
+.form-box h3 {
+  font-size: 24px;
+  margin-bottom: 7px;
+  line-height: 1.26em;
+  letter-spacing: -.02em;
+  color: #0a165e;
+  font-weight: 600;
+}
+
+.form-box p {
+  font-size: 24px;
+  margin-bottom: 24px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #585b6f;
+}
+
+.main-field {
+  margin-bottom: 24px;
+}
+
+.main-field-flex {
+  display: flex;
+  gap: 20px;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  margin: 0;
+  width: 100%;
+  height: 54px;
+  font-weight: 400;
+  color: #0a165e;
+  border-radius: 0;
+  background-color: transparent;
+  padding: 15px 0 !important;
+  border: none !important;
+  transition: all .4s;
+  border-bottom: 1px solid #e3e3ec !important;
+  line-height: inherit;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+textarea {
+  height: 145px;
+  resize: none;
+}
+
+.form-btn-box {
+  display: flex;
+  justify-content: center;
+}

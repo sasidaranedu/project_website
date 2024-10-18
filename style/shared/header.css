@@ -1,0 +1,62 @@
+header {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  top: 0;
+  transition: all .4s;
+  background-color: #fff;
+  box-shadow: 0 4px 80px rgba(0, 0, 0, .1);
+}
+
+
+.main-header {
+  padding: 0 20px;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+}
+
+.brand-logo {
+  margin-right: 38px;
+}
+
+.nav-bar-link {
+  flex: 1;
+}
+
+.nav-bar-link ul {
+  display: flex;
+}
+
+.nav-bar-link ul li {
+  display: flex;
+  align-items: center;
+  padding: 32px 20px;
+
+  font-size: 16px;
+  color: #0a165e;
+  font-weight: 500;
+}
+
+.nav-bar-link ul li a {
+  text-decoration: none;
+  color: #0a165e;
+}
+
+.nav-bar-link ul li a {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.main-header-icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.main-header-icon ion-icon {
+  font-size: 26px;
+}
